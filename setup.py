@@ -8,5 +8,6 @@ setup(
     packages=['buildout', 'buildout.extensionscripts'],
     namespace_packages=['buildout'],
     install_requires=['setuptools'],
-    entry_points = {'zc.buildout.extension': ['default = buildout.extensionscripts:extension']},
-)
+    entry_points={
+        'zc.buildout.extension':
+            ['default = buildout.extensionscripts:extension']})
