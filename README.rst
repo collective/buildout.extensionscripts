@@ -23,3 +23,18 @@ the need of an egg. The `callable_name` in `somescript.py` will be called
 with one argument which is the dictionary like buildout config.
 
 Now have fun shooting and or hanging yourself by changing that.
+
+
+Changes
+=======
+
+1.1 - 2025-04-26
+----------------
+
+Support Python 3.12.
+
+
+1.0 - 2009-10-07
+----------------
+
+Initial release.
